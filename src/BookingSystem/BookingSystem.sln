@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Api", "BookingSystem.Api\BookingSystem.Api.csproj", "{945D6FA6-7F46-471C-A04B-CF338F1342FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Persistence", "BookingSystem.Persistence\BookingSystem.Persistence.csproj", "{290430F6-EFA9-4D4F-9789-493113305B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Domain", "BookingSystem.Domain\BookingSystem.Domain.csproj", "{7C24C2C9-2F96-4C09-B20B-B74D79991817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Services", "BookingSystem.Services\BookingSystem.Services.csproj", "{DBFB8EB3-4613-45BE-B97A-17A94CF608ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Contracts", "BookingSystem.Contracts\BookingSystem.Contracts.csproj", "{8AC01B90-2F1E-476D-8DA8-498632468F4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5B729A97-320B-481A-94EF-F3CABE41729F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Common", "BookingSystem.Common\BookingSystem.Common.csproj", "{A3C7A4DB-48C6-4B96-8C8C-5EFF025BB6FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{945D6FA6-7F46-471C-A04B-CF338F1342FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945D6FA6-7F46-471C-A04B-CF338F1342FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945D6FA6-7F46-471C-A04B-CF338F1342FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945D6FA6-7F46-471C-A04B-CF338F1342FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290430F6-EFA9-4D4F-9789-493113305B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290430F6-EFA9-4D4F-9789-493113305B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290430F6-EFA9-4D4F-9789-493113305B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290430F6-EFA9-4D4F-9789-493113305B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C24C2C9-2F96-4C09-B20B-B74D79991817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C24C2C9-2F96-4C09-B20B-B74D79991817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C24C2C9-2F96-4C09-B20B-B74D79991817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C24C2C9-2F96-4C09-B20B-B74D79991817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFB8EB3-4613-45BE-B97A-17A94CF608ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFB8EB3-4613-45BE-B97A-17A94CF608ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFB8EB3-4613-45BE-B97A-17A94CF608ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFB8EB3-4613-45BE-B97A-17A94CF608ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC01B90-2F1E-476D-8DA8-498632468F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC01B90-2F1E-476D-8DA8-498632468F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC01B90-2F1E-476D-8DA8-498632468F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC01B90-2F1E-476D-8DA8-498632468F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C7A4DB-48C6-4B96-8C8C-5EFF025BB6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C7A4DB-48C6-4B96-8C8C-5EFF025BB6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C7A4DB-48C6-4B96-8C8C-5EFF025BB6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C7A4DB-48C6-4B96-8C8C-5EFF025BB6FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{290430F6-EFA9-4D4F-9789-493113305B66} = {5B729A97-320B-481A-94EF-F3CABE41729F}
+		{7C24C2C9-2F96-4C09-B20B-B74D79991817} = {5B729A97-320B-481A-94EF-F3CABE41729F}
+		{DBFB8EB3-4613-45BE-B97A-17A94CF608ED} = {5B729A97-320B-481A-94EF-F3CABE41729F}
+		{8AC01B90-2F1E-476D-8DA8-498632468F4A} = {5B729A97-320B-481A-94EF-F3CABE41729F}
+		{A3C7A4DB-48C6-4B96-8C8C-5EFF025BB6FD} = {5B729A97-320B-481A-94EF-F3CABE41729F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6156F462-B734-44E7-92C4-C42F723F6E4A}
+	EndGlobalSection
+EndGlobal

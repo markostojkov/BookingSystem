@@ -1,0 +1,23 @@
+<h1 mat-dialog-title>Book a resource for a time period</h1>
+<mat-dialog-content>
+  <form [formGroup]="form">
+    <mat-form-field class="full-width">
+      <input matInput [ngxMatDatetimePicker]="picker" placeholder="Choose a date" [formControl]="startDateFormControl" />
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <ngx-mat-datetime-picker #picker [color]="'primary'" [showSeconds]="true"> </ngx-mat-datetime-picker>
+    </mat-form-field>
+    <mat-form-field class="full-width">
+      <input matInput [ngxMatDatetimePicker]="pickerEnd" placeholder="Choose a end date" [formControl]="endDateFormControl" />
+      <mat-datepicker-toggle matSuffix [for]="pickerEnd"></mat-datepicker-toggle>
+      <ngx-mat-datetime-picker #pickerEnd [color]="'primary'" [showSeconds]="true"> </ngx-mat-datetime-picker>
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="standard">
+      <input type="number" [placeholder]="'Start date'" matInput autocomplete="on" [formControl]="quantityFormControl" />
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button color="primary" (click)="dialogRef.close()">Close</button>
+  <button mat-button color="primary" (click)="bookResource()" [disabled]="form.invalid">Book</button>
+</mat-dialog-actions>
